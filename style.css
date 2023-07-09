@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* Shared Styles */
 * {
@@ -208,6 +208,7 @@ footer {
   width: 175px;
   height: 46px;
   margin-top: 32px;
+  justify-content: space-around;
 }
 .footcol p {
   margin-top: 16px;
@@ -222,11 +223,32 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 113px;
 }
 
 .uniqe-em {
   color: #fff;
   font-size: 25px;
   font-style: normal;
+  font-weight: 600;
+}
+form {
+  display: block;
+}
+form input {
+  padding: 22px 158px 22px 21px;
+  background-color: black;
+  border: 1px solid #fff;
+  font-size: 18px;
+  margin: 31px 0 16px 0;
+}
+.btn-form {
+  width: 170px;
+  height: 64px;
+  color: #fff;
+  border-radius: 8px;
+  background: #005fac;
+  font-family: Inter;
+  font-size: 20px;
   font-weight: 600;
 }
