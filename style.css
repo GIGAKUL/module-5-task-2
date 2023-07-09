@@ -183,5 +183,50 @@ ul li::before {
 
 .banner-second {
   width: 1340px;
-  }
+}
+/* ENd of last section styles*/
 
+/* footer section styles */
+footer {
+  background: black;
+  height: 577px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.em1 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.socials {
+  display: flex;
+  width: 175px;
+  height: 46px;
+  margin-top: 32px;
+}
+.footcol p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  width: 485px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.foot-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uniqe-em {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
