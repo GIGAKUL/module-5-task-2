@@ -49,7 +49,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   background-image: url("images/banner/banner3.png");
-  height: 808px;
+  height: 100vh;
 }
 .banner {
   display: flex;
